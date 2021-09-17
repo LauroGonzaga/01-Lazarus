@@ -1,0 +1,177 @@
+object Form1: TForm1
+  Left = 290
+  Height = 377
+  Top = 250
+  Width = 605
+  Caption = 'Form1'
+  ClientHeight = 377
+  ClientWidth = 605
+  object Label1: TLabel
+    Left = 368
+    Height = 15
+    Top = 56
+    Width = 111
+    Caption = 'Qual a Cor Preferida?'
+    ParentColor = False
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 360
+    Height = 105
+    Top = 88
+    Width = 119
+    AutoFill = True
+    Caption = 'Cor Preferida'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 85
+    ClientWidth = 115
+    Items.Strings = (
+      'Azul'
+      'Amarelo'
+      'Vermelho'
+      'Verde'
+    )
+    OnClick = RadioGroup1Click
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 376
+    Height = 15
+    Top = 200
+    Width = 91
+    Caption = 'RadioGroup Itens'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 88
+    Height = 30
+    Top = 48
+    Width = 79
+    Caption = 'Qual  o Melhor'#13#10'Automóvel?'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 192
+    Height = 25
+    Top = 8
+    Width = 187
+    Caption = 'Pesquisa de Mercado'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 80
+    Height = 225
+    Top = 104
+    Width = 177
+    AutoFill = True
+    Caption = 'Marca Preferida'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    TabOrder = 1
+  end
+  object RadioButton1: TRadioButton
+    Left = 88
+    Height = 19
+    Top = 120
+    Width = 89
+    Caption = 'Aston Martin'
+    OnChange = RadioButton1Change
+    TabOrder = 2
+  end
+  object RadioButton2: TRadioButton
+    Left = 86
+    Height = 19
+    Top = 168
+    Width = 59
+    Caption = 'Bentley'
+    OnChange = RadioButton2Change
+    TabOrder = 3
+  end
+  object RadioButton3: TRadioButton
+    Left = 88
+    Height = 19
+    Top = 192
+    Width = 49
+    Caption = 'BMW'
+    OnChange = RadioButton3Change
+    TabOrder = 4
+  end
+  object RadioButton4: TRadioButton
+    Left = 86
+    Height = 19
+    Top = 216
+    Width = 81
+    Caption = 'Caoa Chery'
+    OnChange = RadioButton4Change
+    TabOrder = 5
+  end
+  object RadioButton5: TRadioButton
+    Left = 88
+    Height = 19
+    Top = 240
+    Width = 71
+    Caption = 'Chevrolet'
+    OnChange = RadioButton5Change
+    TabOrder = 6
+  end
+  object RadioButton6: TRadioButton
+    Left = 88
+    Height = 19
+    Top = 264
+    Width = 39
+    Caption = 'Fiat'
+    OnChange = RadioButton6Change
+    TabOrder = 7
+  end
+  object RadioButton7: TRadioButton
+    Left = 88
+    Height = 19
+    Top = 144
+    Width = 45
+    Caption = 'Audi'
+    OnChange = RadioButton7Change
+    TabOrder = 8
+  end
+  object RadioButton8: TRadioButton
+    Left = 88
+    Height = 19
+    Top = 288
+    Width = 83
+    Caption = 'Volkswagen'
+    OnChange = RadioButton8Change
+    TabOrder = 9
+  end
+  object Label5: TLabel
+    Left = 56
+    Height = 1
+    Top = 328
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clSilver
+    Font.Height = -13
+    Font.Name = 'Verdana'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
